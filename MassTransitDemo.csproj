@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-MassTransitDemo-C196939B-A0C3-41B6-80EA-C03F3AFCCA5B</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.2.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0-rc.2.21480.5" />
+  </ItemGroup>
+</Project>
